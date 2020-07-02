@@ -108,26 +108,18 @@ li a:hover:not(.active) {
   /*margin-top: 142px;
   position: fixed; */
 }
-
-select {
-	display: block;
-	color: white;
-	text-align: center;
-	/* padding: 12px 0 12px 15px; */
-	background-color: #122;
-}
 		
 #sliding {
 	float: left;
 	width: 75%;
 	height: 300px;
 	background: green;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 #updates {
 	float: right;
 	width: 25%;
 	height: 900px;
 	background: cyan;
-	margin-top: 50px;
+	margin-top: 60px;
 }
