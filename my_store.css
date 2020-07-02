@@ -104,8 +104,8 @@ li a:hover:not(.active) {
   width: 550px;
   font-size: 18px;
   border: 1px solid #ddd;
-  /*padding: 11px;
-  margin-top: 142px;
+  padding: 5px;
+  /*margin-top: 142px;
   position: fixed; */
 }
 
