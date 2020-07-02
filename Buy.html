@@ -11,30 +11,35 @@
 
 <body>
 
-<div id="header"><p>|\/| My Store</p>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
 
-<ul style="display: inline;">
-<li><a href="index.html"><span class="space">Home</span></a></li> 
-<li><a href="About_us.html"><span class="space">About Us</span></a></li>  
-<li><a class="active" href="Buy.html"><span class="space">Buy</span></a></li>  
-<li><a href="Sell.html"><span class="space">Sell</span></a></li>  
-<li><a href="Contact_us.html"><span class="space">Contact Us</span></a></li>  
-<li>
-<div class="dropdown">
-  <button class="dropbtn" onclick="dropDown()">More
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="#">Account</a>
-    <a href="#">Setting</a>
-    <a href="#">Logout</a>
-  </div>
+<div id="header">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<ul style="display: inline;">
+		<li><a href="index.html">Home</a></li> 
+		<li><a href="About_us.html">About Us</a></li>
+		<hr>
+		<li><a href="#">Account</a></li>
+		<li><a class="active" href="Buy.html">Buy</a></li>  
+		<li><a href="Sell.html">Sell</a></li>
+		<hr>
+		<li><a href="#">Setting</a></li>
+		<li><a href="Contact_us.html">Contact Us</a></li>
+		<li><a href="#">Logout</a></li>
+	</ul>
 </div>
-</li>
- 
-</ul>
+
+<!-- Use any element to open the sidenav -->
+<span class="sideNavSymbol" onclick="openNav()">&equiv;</span>&nbsp;&nbsp; |\/| My Store &nbsp;&nbsp;
+
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search" title="Type in a category">
 
 </div>
+
+
 
 <h2>Buy</h2>
 
